@@ -11,3 +11,7 @@ test('returns "Fizz" for the number 3', () => {
 test('returns "Buzz" for the number 5', () => {
     expect(fizzbuzz(5)).toEqual('Buzz');
 });
+
+test('returns "FizzBuzz" for the number 15', () => {
+    expect(fizzbuzz(15)).toEqual('FizzBuzz');
+});
