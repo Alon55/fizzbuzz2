@@ -1,5 +1,5 @@
-function fizzbuzz() {
-    return 1
+function fizzbuzz(num) {
+    return num
 }
 
 module.exports = fizzbuzz
