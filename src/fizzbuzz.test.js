@@ -7,3 +7,7 @@ test('returns 1 for the number 1', () => {
 test('returns "Fizz" for the number 3', () => {
     expect(fizzbuzz(3)).toEqual('Fizz');
 });
+
+test('returns "Buzz" for the number 5', () => {
+    expect(fizzbuzz(5)).toEqual('Buzz');
+});
